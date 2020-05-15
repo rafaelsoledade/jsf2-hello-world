@@ -1,1 +1,7 @@
 Forked this repo to test Azure web app deployment. POC for future web apps
+
+Instructions to deploy Maven in Azure:
+
+Configure the deployment: mvn com.microsoft.azure:azure-webapp-maven-plugin:1.9.1:config
+
+Deploy: mvn package azure-webapp:deploy
